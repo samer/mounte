@@ -1,0 +1,3 @@
+#!/bin/bash
+hdiutil attach $1 -stdinpass -quiet -autoopen
+pbcopy < /dev/null # clear the clipboard
